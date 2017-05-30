@@ -30,4 +30,20 @@ defmodule Cards.Mixfile do
   defp deps do
     [{:ex_doc, "~> 0.12"}]
   end
+
+  defp description do
+    """
+    My first elixir code for developing cards module that include functions that create and handle deck cards
+    """
+  end
+
+  defp package do
+    # These are the default files included in the package
+    [
+      name: :cards,
+      maintainers: ["Mohammed Zaghloul"],
+      licenses: ["Apache 2.0"],
+      links: %{"GitHub" => "https://github.com/msalahz/elixir-cards"}
+    ]
+  end
 end

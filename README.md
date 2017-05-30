@@ -1,6 +1,6 @@
 # Cards
 
-**TODO: Add description**
+My first elixir code for developing cards module that include functions that create and handle deck cards
 
 ## Installation
 
