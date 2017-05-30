@@ -7,7 +7,11 @@ defmodule Cards.Mixfile do
      elixir: "~> 1.4",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps()]
+     deps: deps(),
+     description: description(),
+     package: package(),
+     name: "cards",
+    source_url: "https://github.com/msalahz/elixir-cards"]
   end
 
   # Configuration for the OTP application
